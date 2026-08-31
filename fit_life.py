@@ -10,7 +10,7 @@ while True:
         age = int(age_input)
         break
     except ValueError:
-        print("Ошибка: возраст должен быть числом!" "Например: 25. Попробуйте ещё раз.")
+        print("Ошибка: возраст должен быть числом! Попробуйте ещё раз.")
 while True:
     try:
         weight_input = input("Введите ваш вес в кг (например, 67.67): ")
