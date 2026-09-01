@@ -27,7 +27,7 @@ while True:
         print("Ошибка: рост должен быть числом! Попробуйте ещё раз.")
 bmi = user_weight / (user_height ** 2)
 bmi_rounded = round(bmi, 1)
-water_l = (user_weight * 30) / 1000
+water_l = (user_weight * ML_PER_KG) / ML_IN_LITER
 print("\n--- Твой фитнес-отчёт ---")
 print(f"Пользователь: {user_name} ({age} лет)")
 print(f"Индекс массы тела (ИМТ): {bmi_rounded}")
